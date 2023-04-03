@@ -16,23 +16,20 @@ a{
 /*******************nav*************************/
 nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     height: 12vh;
     align-items: center;
     position: relative;
     background-color: beige;
+    padding-left: 6%;
+    font-size: 1.5vw;
 }
-.navTitle{
+#navItem{
     width: 50%;
-    padding-left: 3%;
+    display: flex;
+    justify-content: space-evenly;
 }
-.navItem{
-    width: 50%;
-}
-
 .navLink{
-    font-size: 1.25rem;
-    padding-right: 4rem;
     color: black;
     transition: 500ms ease;
 } .navLink:hover{    color: burlywood;}
@@ -46,6 +43,10 @@ nav{
     position: relative;
     color: aliceblue;
     height: 85vh;
+    display: flex;
+    align-items: center;
+    padding: 0 6vw 0 6vw;
+	-webkit-text-stroke: 0.01vw black;
 }
 
  .bannerImg{
@@ -55,20 +56,30 @@ nav{
 
  .bannerTxt{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
  }
 
  .donation{
     width: 50%;
-    padding: 20% 10%;
-    font-size: 3vh;
+    font-size: 1.5vw;
  }
-
  .heading{
     width: 50%;
-    padding: 15% 10%;
     font-size: 9vh;
+	-webkit-text-stroke: 0.09vw black;
+}
+ .Donate{
+    width: 30vh;
+    height: 8vh;
+    margin-top: 2vh;
+    font-size: 1.5rem;
+    cursor: pointer;
  }
+ .Donate:hover{
+    transition: 1500ms ease;
+    background-color: yellow;
+ }
+
 
 /*******************Banner**********************/
 
@@ -86,12 +97,12 @@ nav{
 
 /*******************Footer*********************/
 #footer{
-    padding: 12vh 5vh 0 5vh;
+    padding: 12vh 5vh 8vh 5vh;
     background-color: black;
     height: 70vh;
     position: relative;
     display: flex;
-    color: white;
+    color: rgb(209, 209, 209);
     /*align-items: center;*/
 }
 
@@ -104,7 +115,6 @@ nav{
 }
 .envoy p{
     font-size: large;
-    padding-bottom: 8vh;
 }
 
 .footerItem h3{
@@ -127,5 +137,9 @@ nav{
 }
 .legal{
     flex-grow: 0.2;
+}
+.visit p{
+    color: #a5a4a4;
+    padding-top: 2vh;
 }
 /*******************Footer*********************/
