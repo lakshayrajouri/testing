@@ -74,9 +74,10 @@ nav{
     margin-top: 2vh;
     font-size: 1.5rem;
     cursor: pointer;
+    transition: 1500ms ease;
  }
  .Donate:hover{
-    transition: 1500ms ease;
+    
     background-color: yellow;
  }
 
