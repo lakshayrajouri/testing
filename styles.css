@@ -32,7 +32,7 @@ nav{
 .navLink{
     color: black;
     transition: 500ms ease;
-} .navLink:hover{    color: burlywood;}
+} .navLink:hover{    color: #deb887;}
 
 
 /*******************nav*************************/
@@ -77,7 +77,6 @@ nav{
     transition: 1500ms ease;
  }
  .Donate:hover{
-    
     background-color: yellow;
  }
 
@@ -87,11 +86,42 @@ nav{
 
 /*******************Features********************/
 #feature{
+    display: flex;
     background-color: white;
-    width: 100%;
-    height: 60vh;
+    width: auto;
+    height: auto;
     position: relative;
+    justify-content: center;
 }
+.featureH1{
+    font-size: 50px;
+}
+
+.features-temp{
+    background-color: rgba(207, 207, 207, 0.712);
+    font-size: 1.5rem;
+    width: 100px;
+    height: 80px;
+    transition: 500ms ease;
+}
+.hiddenTxt{
+    display: none;
+}
+
+.features-temp:hover{
+    transition: 500ms ease;
+    display: block;
+    width: 50%;
+    height: 210px;
+    cursor: pointer;
+    position: sticky;
+    font-size: 1.3rem;
+}
+
+.features-temp:hover .hiddenTxt{
+    display: block;
+}
+
 /*******************Features********************/
 
 
