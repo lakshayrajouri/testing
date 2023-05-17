@@ -34,7 +34,6 @@ nav{
     transition: 500ms ease;
 } .navLink:hover{    color: #deb887;}
 
-
 /*******************nav*************************/
 
 
@@ -87,7 +86,7 @@ nav{
 /*******************Features********************/
 #feature{
     display: flex;
-    background-color: white;
+    background-color: beige;
     width: auto;
     height: auto;
     position: relative;
@@ -99,8 +98,13 @@ nav{
 
 .features-temp{
     background-color: rgba(207, 207, 207, 0.712);
-    font-size: 1.5rem;
-    width: 100px;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: white;
+    border: 1px solid black;
+	-webkit-text-stroke: 0.09vw black;
+    border-radius: 5px;
+    width: 150px;
     height: 80px;
     transition: 500ms ease;
 }
@@ -110,16 +114,22 @@ nav{
 
 .features-temp:hover{
     transition: 500ms ease;
+    color: black;
     display: block;
-    width: 50%;
-    height: 210px;
+    width: 45%;
+    height: 250px;
     cursor: pointer;
     position: sticky;
     font-size: 1.3rem;
-}
+    font-weight: 400;
+	-webkit-text-stroke: 0vw;
+} 
 
 .features-temp:hover .hiddenTxt{
     display: block;
+}
+.features-temp:hover .hiddenTxt2{
+    display: none;
 }
 
 /*******************Features********************/
